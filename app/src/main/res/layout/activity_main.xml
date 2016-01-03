@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#F0F0F0"
+    tools:context="avatar.fisher.com.combinedavatar.MainActivity">
+
+    <Button
+        android:id="@+id/btn_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="avatar"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btn_avatar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="avatar2"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/btn_avatar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="avatar3"
+        android:onClick="onClick"/>
+</LinearLayout>
